@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "games"
+    label: "משחקים"
+    folder: "data/games"
+    create: true
+    slug: "{{slug}}"
+
+    fields:
+      - { label: "שם המשחק", name: "title", widget: "string" }
+      - { label: "תיאור", name: "description", widget: "text" }
+      - { label: "תמונה", name: "image", widget: "image" }
+      - { label: "שחקנים", name: "players", widget: "string" }
+      - { label: "זמן משחק", name: "time", widget: "string" }
+      - { label: "דירוג", name: "rating", widget: "number" }
