@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>עולם משחקי הקופסה</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2>🎲 BoardZone</h2>
+  <nav>
+    <a href="#">בית</a>
+    <a href="#categories">קטגוריות</a>
+    <a href="#games">משחקים</a>
+    <a href="#guide">מדריך</a>
+    <a href="#contact">צור קשר</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>גלה את משחק הקופסה הבא שלך</h1>
+  <p>מאגר משחקים, המלצות ומדריכים לכל אחד</p>
+  <button onclick="scrollToGames()">למשחקים מומלצים</button>
+</section>
+
+<section id="categories" class="categories">
+  <h2>קטגוריות</h2>
+  <div class="grid">
+    <div class="card">🎉 משחקי מסיבה</div>
+    <div class="card">🧠 אסטרטגיה</div>
+    <div class="card">👨‍👩‍👧‍👦 משפחתי</div>
+    <div class="card">❤️ לשניים</div>
+  </div>
+</section>
+
+<section id="games" class="games">
+  <h2>משחקים מומלצים</h2>
+  <div class="grid">
+
+    <div class="game-card">
+      <img src="https://images.unsplash.com/photo-1606166325695-6c1f8b1f0c91">
+      <h3>Catan</h3>
+      <p>משחק אסטרטגיה של בנייה וסחר</p>
+      <span>⭐ 4.8</span>
+    </div>
+
+    <div class="game-card">
+      <img src="https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09">
+      <h3>Uno</h3>
+      <p>משחק קליל ומהיר לכל המשפחה</p>
+      <span>⭐ 4.5</span>
+    </div>
+
+    <div class="game-card">
+      <img src="https://images.unsplash.com/photo-1608889175123-8ee362201f81">
+      <h3>Dixit</h3>
+      <p>משחק יצירתי עם קלפים מאוירים</p>
+      <span>⭐ 4.7</span>
+    </div>
+
+  </div>
+</section>
+
+<section id="guide" class="guide">
+  <h2>איך לבחור משחק?</h2>
+  <p>בחר לפי מספר שחקנים, זמן משחק ורמת מורכבות.</p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>צור קשר</h2>
+  <input type="text" placeholder="שם">
+  <input type="email" placeholder="אימייל">
+  <textarea placeholder="הודעה"></textarea>
+  <button>שלח</button>
+</section>
+
+<footer>
+  <p>© כל הזכויות שמורות - BoardZone</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
